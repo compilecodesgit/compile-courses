@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "role": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "candidate",
+      "password": "password123"
+    },
+    {
+      "id": "3",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "candidate",
+      "password": "password123"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "React Basics",
+      "description": "A comprehensive introduction to React, including components, state, and props.",
+      "duration": "10 hours",
+      "rating": 4.5,
+      "instructor": "Emily Johnson",
+      "language": "English",
+      "level": "Beginner",
+      "category": "Web Development"
+    },
+    {
+      "id": "2",
+      "title": "Advanced React",
+      "description": "Dive deep into React hooks, context API, and performance optimization techniques.",
+      "duration": "15 hours",
+      "rating": 4.8,
+      "instructor": "John Smith",
+      "language": "Hindi",
+      "level": "Advanced",
+      "category": "Web Development"
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Design Principles",
+      "description": "Learn how to design user-friendly and aesthetically pleasing interfaces.",
+      "duration": "7 hours",
+      "rating": 4.7,
+      "instructor": "Emily Johnson",
+      "language": "English",
+      "level": "Intermediate",
+      "category": "UI/UX"
+    },
+    {
+      "id": "4",
+      "title": "JavaScript Fundamentals",
+      "description": "Master the core concepts of JavaScript, including ES6+ features.",
+      "duration": "15 hours",
+      "rating": 4.6,
+      "instructor": "Michael Brown",
+      "language": "English",
+      "level": "Beginner",
+      "category": "Programming"
+    },
+    {
+      "id": "5",
+      "title": "TypeScript in Depth",
+      "description": "A guide to using TypeScript for building scalable and maintainable applications.",
+      "duration": "9 hours",
+      "rating": 4.9,
+      "instructor": "Sophia Davis",
+      "language": "English",
+      "level": "Advanced",
+      "category": "Programming"
+    },
+    {
+      "id": "6",
+      "title": "Full Stack Development",
+      "description": "Learn to build end-to-end applications using MERN stack. Includes MongoDB, Express, React, and Node.js.",
+      "duration": "20 hours",
+      "rating": 4.7,
+      "instructor": "Emily Johnson",
+      "language": "English",
+      "level": "Intermediate",
+      "category": "Web Development"
+    },
+    {
+      "id": "7",
+      "title": "Responsive Web Design",
+      "description": "Create stunning websites that look great on all devices. Create Desktop, Tablet and Mobile responsive websites.",
+      "duration": "6 hours",
+      "rating": 4.3,
+      "instructor": "Sarah Miller",
+      "language": "English",
+      "level": "Beginner",
+      "category": "UI/UX"
+    },
+    {
+      "id": "8",
+      "title": "Python for Data Analysis",
+      "description": "Analyze data efficiently using Python libraries such as Pandas and NumPy.",
+      "duration": "14 hours",
+      "rating": 4.8,
+      "instructor": "James Wilson",
+      "language": "English",
+      "level": "Intermediate",
+      "category": "Data Science"
+    },
+    {
+      "id": "9",
+      "title": "Machine Learning Basics",
+      "description": "Understand the basics of machine learning and build your first models.",
+      "duration": "18 hours",
+      "rating": 4.6,
+      "instructor": "Isabella Martinez",
+      "language": "English",
+      "level": "Beginner",
+      "category": "Data Science"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "userId": "2",
+      "courseId": "1"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "courseId": "2"
+    }
+  ]
+}
